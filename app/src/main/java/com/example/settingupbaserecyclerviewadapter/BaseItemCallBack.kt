@@ -4,9 +4,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 
-class BaseViewHolder(container: ViewGroup) : RecyclerView.ViewHolder(container) {
-
-}
 
 class BaseItemCallBack<T : Any> : DiffUtil.ItemCallback<T>() {
 

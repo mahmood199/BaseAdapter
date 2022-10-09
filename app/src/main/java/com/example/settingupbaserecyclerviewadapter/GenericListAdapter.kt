@@ -3,6 +3,7 @@ package com.example.settingupbaserecyclerviewadapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
+import com.example.settingupbaserecyclerviewadapter.base.BaseViewHolder
 
 abstract class GenericListAdapter<T : Any>(
     val layoutId: Int,

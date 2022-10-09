@@ -1,6 +1,6 @@
 package com.example.baservsetup.SecondOctober
 
-import com.example.baservsetup.databinding.TextBinding
+import com.example.settingupbaserecyclerviewadapter.databinding.TextBinding
 
 class TextViewHolder(private val binding : TextBinding) : BaseViewHolder<String>(binding.root) {
 
